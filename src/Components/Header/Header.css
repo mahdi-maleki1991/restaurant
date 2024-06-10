@@ -1,0 +1,225 @@
+.sectionConHeader {
+    position: relative;
+    max-height: 100vh !important;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.imgBackgroundHeader {
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+}
+
+.divShadowHeder {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 48, 92, 0.389);
+    display: flex;
+    flex-direction: column;
+}
+
+.divNavbarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.navBarHeaderUI {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.navBarHeaderUI li {
+    margin-right: 15px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: all .4s;
+}
+
+.navBarHeaderUI li:hover {
+    background-color: orange;
+    transition: all .4s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.navBarHeaderUI li:last-child {
+    background-color: orange;
+}
+
+.logoHeader {
+    width: 100%;
+    max-width: 140px;
+    max-height: 140px;
+    border: 2px solid rgba(255, 255, 255, 0.89);
+    border-radius: 50%;
+}
+
+.divConHeaderTextImg {
+    width: 100%;
+    max-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.textInHeader {
+    font-family: f3;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 45px;
+}
+
+.imgMidleHeader {
+    height: 100%;
+    max-width: 500px;
+    max-height: 550px;
+}
+
+.divHolderTextHeder {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    color: white;
+    padding: 0px 15px;
+}
+
+.divBTNheaderHolder {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.btnBookTableHeader {
+    width: 150px;
+    height: 37px;
+    border-radius: 4px;
+    background-color: orange;
+    color: white;
+    outline: none;
+    border: 1px solid rgba(255, 145, 0, 0.893);
+}
+
+.icon3LineMenu {
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+
+
+}
+
+/* ------------Smal Menu---------------- */
+.divSmalMenuHeader {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 18, 35, 0.944);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    transition: height .5s;
+}
+
+.divSmalMenuHeaderActive {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 18, 35, 0.968);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    transition: height .5s;
+}
+
+.ulSmalMenuHeader {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.ulSmalMenuHeader li {
+    margin-top: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    user-select: none;
+    cursor: pointer;
+    height: 38px;
+    padding: 0px;
+    border-radius: 3px;
+    transition: background-color .4s;
+
+}
+
+.ulSmalMenuHeader li:hover {
+    background-color: rgba(255, 255, 255, 0.148);
+    transition: all .3s;
+}
+
+.iconCloseSmalMenu {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: rgba(255, 255, 255, 0.499);
+    font-size: 30px;
+    transition: color .4s;
+    cursor: pointer;
+}
+
+.iconCloseSmalMenu:hover {
+    color: white;
+    transform: rotate(180deg);
+    transition: all .3s;
+}
+
+.textInHeaderSmall {
+    font-family: f3;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.liBookATableSmallMenu {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.63);
+    user-select: none;
+    height: 38px;
+    border: 1px solid rgba(255, 166, 0, 0.381);
+    border-radius: 4px;
+    color: white;
+    transition: all .4s;
+}
+
+.liBookATableSmallMenu:hover {
+    background-color: rgba(255, 166, 0, 0) !important;
+    color: rgb(255, 153, 0) !important;
+    transition: all .4s;
+}

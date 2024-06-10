@@ -1,0 +1,107 @@
+.ConOurMenu {
+    /* min-height: 350px; */
+    background-color: rgba(58, 100, 178, 0.773);
+    padding: 10px !important;
+    overflow: hidden;
+}
+
+.ColTextOurMenu {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ColTextOurMenu h2 {
+    font-family: f2;
+    font-size: 35px;
+    color: orange;
+    font-weight: 700;
+}
+
+.ColTextOurMenu p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.ColIconsOurMenu {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 350px;
+}
+
+.divBoxOurMenu {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 5px;
+    margin: 5px;
+    border-radius: 1px;
+    user-select: none;
+    cursor: pointer;
+    transition: border-radius .3s;
+
+    animation-name: ani1;
+    animation-duration: 1.4s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.divBoxOurMenu:hover {
+    border-radius: 50%;
+    transition: border-radius .3s;
+}
+
+@keyframes ani1 {
+    0% {
+        background-color: rgba(86, 45, 130, 0.36);
+    }
+
+    100% {
+        background-color: rgba(103, 57, 152, 0.173);
+    }
+}
+
+.iconOurMenuAnimal {
+    color: white;
+    font-size: 45px;
+}
+
+.spanNameIcon {
+    color: white;
+    margin-top: 10px;
+    font-family: f3;
+    font-size: 19px;
+}
+
+.divBtnOurMenu {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.btnOurMenu {
+    width: 150px;
+    height: 41px;
+    border: 1px solid orange;
+    color: white;
+    background-color: orange;
+    border-radius: 4px;
+    font-size: 15px;
+    transition:background-color .3s, color .3s ;
+}
+.btnOurMenu:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: orange;
+    transition:all .3s ;
+
+}

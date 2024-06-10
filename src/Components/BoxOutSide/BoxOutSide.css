@@ -1,0 +1,66 @@
+.secBoxOutSide {
+    width: 100%;
+    background-color: rgba(58, 100, 178, 0.773);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    margin-bottom: 101px;
+}
+
+.divTextsKeeperBoxOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secBoxOutSide h2 {
+    font-family: f3;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.secBoxOutSide p {
+    text-align: center;
+    width: 100%;
+    max-width: 750px;
+}
+
+.divBoxKeeperOutSide {
+    width: 100%;
+    /* background-color: rgba(255, 0, 0, 0.222); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divsBoxOutSide {
+    width: 240px;
+    min-height: 200px;
+    background-color: rgba(228, 122, 0, 0.818);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 10px -110px 10px;
+
+}
+.iconsInBoxesOut{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.divsBoxOutSide h3{
+    font-family: f3;
+    margin: 10px 0px;
+}
+.divsBoxOutSide span{
+    font-size: 14px;
+}

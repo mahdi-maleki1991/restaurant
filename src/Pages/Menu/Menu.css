@@ -1,0 +1,128 @@
+.colRowOneMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eee {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 10px 0px;
+}
+
+.colRowOneMenu h2 {
+    font-family: f2;
+    color: orange;
+    max-width: 800px;
+    text-align: center;
+}
+
+.colRowOneMenu p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 900px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.conTwoMenu h2 {
+    font-family: f3;
+    color: rgb(67, 126, 214);
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.rowMainMenuToShowFoods {
+    margin-top: 10px;
+    min-height: 350px;
+    padding: 10px;
+}
+
+.divTowInMenu {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divOneInMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.spanMenuName {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.spanMenuPrice {
+    color: rgb(108, 170, 237);
+    margin: 5px 0px 0px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.spanIngradiantMenu {
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.pTagDesMenuFood {
+    margin: 10px 0px 0px 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imgEachFoodMenu {
+    max-height: 310px;
+    max-width: 390px;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.btnOrderInMenu {
+    width: 150px;
+    height: 38px;
+    outline: none;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: background-color .5s;
+}
+
+.btnOrderInMenu:hover {
+    background-color: white;
+    color: orange;
+    transition: all .5s;
+}
+
+.btnHomePageMenu {
+    width: 130px;
+    height: 34px;
+    outline: none;
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+    transition: background-color .4s;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.btnHomePageMenu:hover {
+    background-color: orange;
+    color: white;
+    transition: all .4s;
+}

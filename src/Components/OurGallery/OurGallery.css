@@ -1,0 +1,114 @@
+.secOurGallery {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.773);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.divRowOurGallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRowOurGallery h2 {
+    font-family: f3;
+    font-size: 38px;
+    color: orange;
+    font-weight: 700;
+}
+
+.divRowOurGallery p {
+    max-width: 700px;
+    text-align: center;
+    color: rgb(97, 97, 97);
+}
+
+.divImgaesOurGallery {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.divIMGholderOurGallery {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imgOurGallery {
+    width: 100%;
+    height: 100%;
+    transition: transform 3s;
+}
+
+.imgOurGallery:hover {
+    transform: scale(2, 2);
+    transition: transform 16s;
+}
+
+/* -----------------Open window Gallery---------------------- */
+.divOpenWindowOurGallery {
+    width: 100%;
+    height: 0px;
+    background-color: rgba(3, 32, 58, 0.919);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px 0px 70px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.refImgShowWinGalleryActive {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(3, 32, 58, 0.919);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 70px 20px 70px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.openCloseWinGallery {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    color: rgba(255, 255, 255, 0.448);
+    font-size: 20px;
+}
+
+.openCloseWinGallery:hover {
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.imgInOpenCloseWinGallery {
+    max-width: 100%;
+    max-height: 80vh;
+    /* max-height: 100%; */
+    /* width: 400px; */
+}

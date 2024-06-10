@@ -1,0 +1,90 @@
+.conOurTeam {
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.ColOurTeamRowOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ColOurTeamRowOne h2 {
+    font-family: f3;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ColOurTeamRowOne p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 700px;
+}
+
+.divColOurTeamBoxes {
+    width: 100%;
+    min-height: 330px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    background-color: rgba(40, 71, 143, 0.696);
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+
+.divColOurTeamBoxes img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.DivInfoManagers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px 10px 20px;
+    max-width: 600px;
+
+}
+
+.DivInfoManagers h2 {
+    font-family: f6;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.DivInfoManagers span {
+    color: rgba(255, 255, 255, 0.547);
+    padding-left: 14px;
+    font-style: italic;
+}
+
+.DivInfoManagers p {
+    padding-left: 15px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.divSocialMediaOurTeam {
+    height: 30px;
+    padding-left: 2px;
+    margin-top: 10px;
+}
+
+.iconsSocialOurTeam {
+    margin-left: 10px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.521);
+    cursor: pointer;
+    user-select: none;
+}
+
+.iconsSocialOurTeam:hover {
+    color: rgb(255, 255, 255);
+}
