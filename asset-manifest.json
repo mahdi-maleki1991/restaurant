@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/restaurant/static/css/main.a101c217.css",
+    "main.js": "/restaurant/static/js/main.58dc5b98.js",
+    "static/js/453.a468b075.chunk.js": "/restaurant/static/js/453.a468b075.chunk.js",
+    "static/media/Brooklyn.ttf": "/restaurant/static/media/Brooklyn.e829c042cf82cfcb484e.ttf",
+    "static/media/Theories.ttf": "/restaurant/static/media/Theories.b16bec7362a5779447e1.ttf",
+    "static/media/Glycerints.ttf": "/restaurant/static/media/Glycerints.6d91fae0b253ff3d3ad9.ttf",
+    "static/media/Merlovaz Personal Use Only.ttf": "/restaurant/static/media/Merlovaz Personal Use Only.10ff39193fa401abdf71.ttf",
+    "static/media/pumpkinslan.otf": "/restaurant/static/media/pumpkinslan.4f8e40ac81e12436a912.otf",
+    "static/media/Hello Samosa.ttf": "/restaurant/static/media/Hello Samosa.ed270487448cf3706b8f.ttf",
+    "index.html": "/restaurant/index.html",
+    "main.a101c217.css.map": "/restaurant/static/css/main.a101c217.css.map",
+    "main.58dc5b98.js.map": "/restaurant/static/js/main.58dc5b98.js.map",
+    "453.a468b075.chunk.js.map": "/restaurant/static/js/453.a468b075.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a101c217.css",
+    "static/js/main.58dc5b98.js"
+  ]
+}
